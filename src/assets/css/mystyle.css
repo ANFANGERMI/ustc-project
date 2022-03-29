@@ -1,0 +1,121 @@
+body, html{
+    margin: 0px;
+    background: url("../img/didi-logo-3.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.frontend {
+    background-color: #00000060;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    border-radius: .25rem;
+}
+
+#user-info-box{
+    width: 100px;
+    height: 60px;
+    z-index: 1001;
+    float: left;
+    text-align: center center;
+    border-radius:2px solid #00000020;
+}
+
+#top-menu {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top:0;
+    z-index: 1001;
+}
+
+#left-menu {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1001;
+    margin-top: -60px;
+    transition: all 0.3s ease;
+} 
+#left-menu #left-btn{
+    font-size: 40px;
+    color: orange;
+    position: absolute;
+    left: 220px;
+    height:60px;
+    display: flex;
+    align-items: center;
+}   
+
+#left-menu.xs{
+    margin-left: -200px;
+    transition: all 0.3s ease;
+}
+
+/*  页面内容 */
+#content {
+    position: relative;
+    top: 40px;
+    margin-left: 220px;
+    margin-right: 20px;
+    padding: 10px 0;   
+}
+
+#content.xs {
+    margin-left: 20px;
+}
+
+#footer {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+/* 框架修改 */
+.el-submenu__title:hover{
+    background-color: #00000060!important;
+}
+
+.el-menu-item:hover{
+    background-color: #00000060!important;
+}
+
+.el-menu {
+    border: none;
+}
+
+.el-menu i{
+    color: orange;
+}
+.el-collapse-item__header {
+    background-color: #00000060;
+    color: white;
+  }
+.el-form-item__label{
+    color: white;
+}
+
+.el-tabs__item{
+    color: white;
+  }
+
+
+.el-tabs__content{
+    background-color: none;
+    color: white;
+}
+.el-tabs__nav-scroll{
+    background-color: none;
+}
+
+.el-tabs--top{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
